@@ -49,8 +49,13 @@
 }
 
 .Weather .unit {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   position: relative;
   top: -34px;
+  color: white;
+}
+.Weather .unit a {
+  color: #0bf4db;
+  text-decoration: none;
 }
