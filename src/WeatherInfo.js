@@ -27,6 +27,14 @@ export default function WeatherInfo(props) {
           </ul>
         </div>
       </div>
+      <a
+        className="info-link"
+        href="https://openweathermap.org/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        More Info
+      </a>
     </div>
   );
 }

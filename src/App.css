@@ -2,7 +2,11 @@
   margin: 30px auto;
   max-width: 600px;
 }
-
+.App .github-link {
+  color: #71299b;
+  text-decoration: none;
+  font-weight: bold;
+}
 .App footer {
   font-size: 11px;
   margin: 10px 0;

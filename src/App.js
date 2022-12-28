@@ -8,7 +8,7 @@ function App() {
         <Weather defaultCity="Hermanus" />
         <footer>
           <a
-            className="info-link"
+            className="github-link"
             href="https://github.com/sacrmr/react-weather-app"
             target="_blank"
             rel="noreferrer"
