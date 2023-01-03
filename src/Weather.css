@@ -76,10 +76,6 @@
   top: -34px;
   color: white;
 }
-.Weather .unit a {
-  color: #8b5ea5;
-  text-decoration: none;
-}
 
 .WeatherInfo canvas {
   height: 62px;
