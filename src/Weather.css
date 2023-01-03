@@ -1,7 +1,7 @@
 .Weather {
   border: 1px solid white;
   border-radius: 10px;
-  background: #00a1f5;
+
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   padding: 16px;
@@ -18,6 +18,23 @@
 .Weather .btn {
   background-color: #71299b;
   border: 1px solid #71299b;
+  width: 100%;
+}
+.Weather .col-9 input {
+  border: 1px solid #8b5ea5;
+}
+
+.form-control::placeholder {
+  color: #71299b;
+  opacity: 0.8;
+}
+.WeatherInfo .info-link {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  text-align: right;
+  padding-right: 20px;
 }
 
 .Weather h1 {
@@ -60,13 +77,52 @@
   color: white;
 }
 .Weather .unit a {
-  color: #0bf4db;
+  color: #8b5ea5;
   text-decoration: none;
 }
 
-.Weather .info-link {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 80px;
+.WeatherInfo canvas {
+  height: 62px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 481px) {
+  .Weather h1 {
+    font-size: 22px;
+  }
+
+  .Weather .col-9 {
+    height: 20px;
+  }
+
+  .Weather .btn {
+    font-size: 14px;
+    height: 38px;
+    padding-right: 50px;
+  }
+
+  .Weather canvas {
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .WeatherTemperature .temperature {
+    font-size: 45px;
+  }
+  .WeatherTemperature .unit {
+    font-size: 12px;
+    position: relative;
+    top: -28px;
+  }
+  .WeatherInfo .info-link {
+    padding-right: 5px;
+    font-size: 14px;
+  }
+  .Weather li {
+    font-size: 14px;
+  }
+  .Weather .Forecast {
+    font-size: 14px;
+    padding: 15px;
+  }
 }

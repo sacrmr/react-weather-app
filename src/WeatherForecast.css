@@ -1,8 +1,19 @@
 .WeatherForecast {
   text-align: center;
 }
-
+.WeatherForecast .ForecastMax {
+  margin-right: 5px;
+}
 .WeatherForecast .ForecastMin {
   opacity: 0.7;
   margin-left: 5px;
+}
+
+.WeatherForecast .row {
+  margin: 25px 0 20px 0;
+}
+
+.WeatherForecast .row .col canvas {
+  margin: 5px 0 5px 0;
+  height: 36px;
 }

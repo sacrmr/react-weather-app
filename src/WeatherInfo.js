@@ -19,7 +19,7 @@ export default function WeatherInfo(props) {
           <WeatherTemperature celsius={props.data.temperature} />
         </div>
 
-        <div className="col-6">
+        <div className="col-6 conditions">
           <ul>
             <li>Feels like: {Math.round(props.data.realFeel)}°C</li>
             <li>Wind: {Math.round(props.data.wind)} km/h</li>
@@ -33,7 +33,7 @@ export default function WeatherInfo(props) {
         target="_blank"
         rel="noreferrer"
       >
-        More Info
+        More Info...
       </a>
     </div>
   );
